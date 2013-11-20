@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#56778C"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:src="@drawable/picoto_logo3" />
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="1.0"
+	        android:layout_marginTop= "20dp"
+	        android:layout_marginBottom= "20dp">
+	        <TextView
+	            android:layout_width= "match_parent"
+	            android:text="Name:"
+	            android:textSize = "20dp"
+	            android:textColor = "@android:color/white"
+	            android:gravity="left"
+	            android:layout_marginLeft= "25dp"
+	            android:layout_height = "wrap_content"
+	            android:layout_weight=".5"/>
+	        <EditText
+	            android:layout_width= "match_parent"
+	            android:hint="   ie. John Smith"
+	            android:textSize="14dp"
+	            android:layout_height = "25dp"
+	            android:layout_weight=".5"
+	            android:layout_marginRight= "25dp"
+	            android:background = "@android:color/white"/>
+	            
+        </LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="1.0"
+	        android:layout_marginTop= "20dp"
+	        android:layout_marginBottom= "20dp">
+	        <TextView
+	            android:layout_width= "match_parent"
+	            android:text="Age (weeks):"
+	            android:textSize = "20dp"
+	            android:textColor = "@android:color/white"
+	            android:gravity="left"
+	            android:layout_marginLeft= "25dp"
+	            android:layout_height = "wrap_content"
+	            android:layout_weight=".5"/>
+	        <EditText
+	            android:layout_width= "match_parent"
+	            android:hint="   ie. 6"
+	            android:textSize="14dp"
+	            android:layout_height = "25dp"
+	            android:layout_weight=".5"
+	            android:layout_marginRight= "25dp"
+	            android:background = "@android:color/white"/>
+	            
+        </LinearLayout>
+           <LinearLayout
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+	        android:weightSum="1.0"
+	        android:layout_marginTop= "20dp"
+	        android:layout_marginBottom= "20dp">
+	        <TextView
+	            android:layout_width= "match_parent"
+	            android:text="Weight (ounces):"
+	            android:textSize = "20dp"
+	            android:textColor = "@android:color/white"
+	            android:gravity="left"
+	            android:layout_marginLeft= "25dp"
+	            android:layout_height = "wrap_content"
+	            android:layout_weight=".5"/>
+	        <EditText
+	            android:layout_width= "match_parent"
+	            android:hint="   ie. 12"
+	            android:textSize="14dp"
+	            android:layout_height = "25dp"
+	            android:layout_weight=".5"
+	            android:layout_marginRight= "25dp"
+	            android:background = "@android:color/white"/>
+	            
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="center|bottom"
+        android:orientation="vertical" 
+        android:layout_weight = "1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:orientation="horizontal"
+             android:layout_gravity = "center|bottom"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:src="@drawable/home2"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft = "20dp"
+                android:layout_gravity = "center|bottom"
+                android:id = "@+id/homeButton"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="150dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft = "20dp"
+                android:src="@drawable/socks2"
+                 android:layout_gravity = "center|bottom" />
+
+		<ImageView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:adjustViewBounds="true"
+		    android:maxWidth="150dp"
+		    android:src="@drawable/history"
+		    android:layout_marginRight="20dp"
+                android:layout_marginLeft = "20dp"
+		     android:layout_gravity = "center|bottom" />
+
+		</LinearLayout>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
